@@ -1,0 +1,117 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.user-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.user-info h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.user-recent-purchases ul,
+.user-reviews ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-recent-purchases li,
+.user-reviews li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-recent-purchases li span,
+.user-reviews li {
+    font-weight: bold;
+}
+
+.user-recent-purchases button,
+.user-reviews li {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-recent-purchases button:hover {
+    background-color: #218838;
+}
+
+.user-preferences,
+.user-reviews {
+    margin-bottom: 30px;
+}
+
+.user-preferences p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+}
