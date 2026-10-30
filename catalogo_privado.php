@@ -25,6 +25,7 @@ if (!isset($_SESSION['user_id'])) {
         <h1 class="mb-4">Meus Produtos</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <?php
+            // não tira isso, é pro futuro entender melhor
             // Buscar produtos do usuário logado
             $sql = "SELECT idprod, nome, descricao, preco, imagem, categoria 
                     FROM produtos 

@@ -115,7 +115,6 @@
         <?php
         
 
-        // Buscar produtos no banco
         $sql = "SELECT id, nome, preco, imagem, categoria FROM produtos";
         $result = $conn->query($sql);
 

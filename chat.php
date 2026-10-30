@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'config.php';
-
+// eu acho que ta funcionando
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_SESSION['user_id'])) {
         $remetente_id = (int)$_SESSION['user_id'];

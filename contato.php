@@ -53,7 +53,7 @@
                         <i class="bi bi-instagram display-1 text-danger"></i>
                         <h5 class="card-title mt-3">Instagram</h5>
                         <p class="card-text">Siga-nos no Instagram para novidades:</p>
-                        <p><strong>@exemplo_perfil</strong></p>
+                        <p><strong>@loca fit (mudardepois) </strong></p>
                     </div>
                 </div>
             </div>

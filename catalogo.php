@@ -134,7 +134,6 @@ if(isset($_SESSION['user_id'])){
        } else {
            echo "<p>Nenhum produto disponível no momento.</p>";
        }
-//trabalha msm piranha
         $conn->close(); 
         ?>
 

@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,7 +6,6 @@ body {
     padding: 0;
 }
 
-/* Container do perfil */
 .profile-container {
     width: 100%;
     max-width: 800px;
@@ -17,7 +16,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Cabeçalho do perfil */
 .profile-header h2 {
     text-align: center;
     margin-bottom: 20px;

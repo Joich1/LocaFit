@@ -99,7 +99,7 @@ $user = mysqli_fetch_assoc($result);
 
 <body class="d-flex flex-column vh-100">
     <div class="container py-5">
-        <!-- Cabeçalho -->
+    
         <header class="text-center mb-5 d-flex justify-content-between w-100">
             <a href="index.php" class="btn h-25">Voltar</a>
             <h1 class="display-4 fw-bold">
@@ -113,8 +113,6 @@ $user = mysqli_fetch_assoc($result);
     
 
         </header>
-
-        <!-- Seção de detalhes do usuário -->
         <section class="row justify-content-center align-items-center mb-5">
             <div class="col-md-4 text-center">
                 <img src="<?php echo htmlspecialchars($user['imagem'] ?? 'https://via.placeholder.com/150'); ?>" alt="Foto do usuário"
@@ -132,8 +130,6 @@ $user = mysqli_fetch_assoc($result);
                 </div>
             </div>
         </section>
-
-        <!-- Modal para editar perfil -->
         <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -167,8 +163,6 @@ $user = mysqli_fetch_assoc($result);
                 </div>
             </div>
         </div>
-
-        <!-- Link para logout -->
         <div class="text-center mt-4">
             <a href="logout.php" class="btn btn-danger">Deslogar</a>
         </div>
